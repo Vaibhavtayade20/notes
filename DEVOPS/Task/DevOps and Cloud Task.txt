@@ -1,0 +1,15 @@
+Q.1 Create a 2 s3 bucket named as "prnlab" and "namelab". Then create lambda two functions and attach Roles to function for s3 bucket. Then add triggers only ".doc" for "prnlab" s3 bucket and ".html" for "namelab" s3 bucket. Create a SNS service and attach to destination of both functions and show the logs for "prnlab" bucket and "namelab" bucket.
+
+Q.2 Create VPC and attach to 3 EC2 instance. One instance for application and that application push to github repository. In Second instance, create CI/CD pipeline for docker container and run on 9000. And then transfer previous docker image to 3rd instance and create another container in 3rd instance and run on 9001. Show the output of both container on browser.
+(VPC Range: 10.10.0.0/16, Subnet: 10.10.5.0/24)
+
+Q.3 Create a 3 containers of httpd image using docker-compose file and host the containers with different ports. (here create your website in html. Copy the html file to host machine to container using Docker Volume)
+
+Q.4 Create a python program of swapping 2 numbers and build a image of that program using Dockerfile and create a container and run the container.
+
+Q.5 Create static website and host it on browser using S3 bucket
+
+Q.6 Create one service on docker-swarm and create 3 replicas of that service.
+
+Q.7 Create your application and run it through docker-swarm. For that create 3 replicas.
+Then modify the application and show the update on browser.  

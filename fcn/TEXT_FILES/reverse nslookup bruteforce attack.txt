@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Please enter Class C IP network range:-"
+read range
+for ip in `seq 1 254`;
+do
+host $range.$ip | grep "name pointer" | awk -F ' ' '{print $5}'
+done
